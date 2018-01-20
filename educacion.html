@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width,user-scalable=no">
+	<meta name="author" content="The Owl">
+	<meta name="keywords" content="cv">
+	<meta name="description" content="Curriculum vitae">
+	<title>Hoja de vida digital - Educación</title>
+</head>
+<body>
+	<header>
+		<img src="img/logo.svg" alt="">
+	</header>
+	<section>
+		<h1>Hoja de vida</h1>
+		<h2>Eduardo Jose Yallico Arias</h2>
+		<h3>29/3/94 - Lima, Perú</h3>
+	</section>
+	<nav>
+		<ul>
+			<li><a href="index.html" title="">Inicio</a></li>
+			<li><a href="educacion.html" title="">Educación</a></li>
+			<li><a href="experiencia.html" title="">Experiencia</a></li>
+		</ul>
+	</nav>
+	<section>
+		<h2>Educación</h2>
+		<table border="2">
+			<thead>
+				<tr>
+					<th>Año</th>
+					<th>Institución</th>
+					<th>Lugar</th>
+					<th>¿Culminó?</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>2013</td>
+					<td>Tecsup</td>
+					<td>Lima</td>
+					<td>Sí</td>
+				</tr>
+				<tr>
+					<td>2017</td>
+					<td>UPC</td>
+					<td>Lima</td>
+					<td>No</td>
+				</tr>
+			</tbody>
+		</table>
+	</section>
+	<section>
+		<h2>Agregar estudios</h2>
+		<form>
+		<label for="year">Año: </label>
+		<select name="year">
+			<option value="18">2018</option>
+			<option value="17">2017</option>
+			<option value="16">2016</option>
+			<option value="15">2015</option>
+			<option value="14">2014</option>
+			<option value="13">2013</option>
+			<option value="12">2012</option>
+		</select>
+		<br><br>
+		<label for="inst">Nombre de la Institución</label>
+		<input type="text" name="inst" placeholder="Ej: Tecsup" required>
+		<br><br>
+		<label for="place">Lugar: </label>
+		<textarea name="place" cols="30" rows="2"></textarea>
+		<br><br>
+		<label for="ended">¿Culminó?: </label>
+		<input type="radio" name="ended"> Sí
+		<input type="radio" name="ended"> No
+		<input type="submit" value="Enviar">
+		</form>
+	</section>
+	<footer>
+		<h3>Contáctame</h3>
+		<p>Teléfono: +51 3023120 <br> Email: eyallicoarias@gmail.com</p>
+	</footer>
+</body>
+</html>
